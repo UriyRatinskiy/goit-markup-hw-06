@@ -788,13 +788,13 @@ clip: rect(0 0 0 0);
 }
 .modal-form-check:checked + .modal-form-check-desc::before {
     background-color: var(--OCEAN);
-    background-image: url(../imges/icons/vector.svg);
+    background-image: url(../imges/icons/Vector.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .modal-form-check:focus + .modal-form-check-desc::before {
     background-color: var(--OCEAN);
-    background-image: url(../imges/icons/vector.svg);
+    background-image: url(../imges/icons/Vector.svg);
     background-repeat: no-repeat;
     background-position: center;
     background: #404BBF;
