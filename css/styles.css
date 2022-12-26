@@ -585,6 +585,7 @@ clip: rect(0 0 0 0);
     letter-spacing: 0.04em;
     color: #FFFFFF;
     height: 40px;
+    cursor: pointer;
 
     background: var(--IRIS);
     border-radius: 4px;
@@ -633,8 +634,8 @@ clip: rect(0 0 0 0);
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 408px;
-    height: 584px; 
+    max-width: 408px;
+    width: 100%; 
     background-color: #FCFCFC;
     border-radius: 4px;
 
@@ -744,7 +745,7 @@ clip: rect(0 0 0 0);
     border-radius: 4px;
     padding: 8px 16px;
     transition: border-color var(--transition-dur-and-func);
-   
+   margin-bottom: 16px;
 }
 .modal-form-comment::placeholder {
     align-items: center;
@@ -818,7 +819,7 @@ clip: rect(0 0 0 0);
     
         padding: 16px 32px;
         border-radius: 4px;
-        min-width: 170px;
+        min-width: 169px;
         border: none;
     
         transition-property: background-color;
